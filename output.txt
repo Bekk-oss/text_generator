@@ -1,3 +1,4 @@
+Q. "Explain the differences of FFT vs DFFT"
 1. **Definition and Breakdown:** The DIT FFT recursively divides the input sequence into                  │
  │    even- and odd-indexed subsequences, computes their DFTs recursively, and then combines the                │
  │    results using butterfly computations.                                                                     │
