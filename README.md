@@ -32,7 +32,21 @@ Retrieval-Augmented Generation combines information retrieval with language mode
    - **Draft Stage**: Expands with technical details
    - **Revise Stage**: Polishes for professional quality
    - Gemini generates responses using retrieved context
+   - 
+### Key RAG Implementation Features
 
+1. **Contextual Retrieval**:
+   - Uses FAISS vector store for efficient similarity search
+   - MPNet embeddings capture semantic meaning
+   - Overlapping chunks preserve context
+
+2. **Multi-Stage Reasoning**:
+   ```mermaid
+   graph TD
+   A[Question] --> B(Outline)
+   B --> C(Draft)
+   C --> D(Revise)
+   D --> E[Polished Answer]
 ## Requirements
 
 - Python 3.10+
@@ -53,17 +67,4 @@ google-generativeai
 configure your specific pdf to the path. PDF_PATH = "path/to/your/document.pdf"
 
 
-### Key RAG Implementation Features
 
-1. **Contextual Retrieval**:
-   - Uses FAISS vector store for efficient similarity search
-   - MPNet embeddings capture semantic meaning
-   - Overlapping chunks preserve context
-
-2. **Multi-Stage Reasoning**:
-   ```mermaid
-   graph TD
-   A[Question] --> B(Outline)
-   B --> C(Draft)
-   C --> D(Revise)
-   D --> E[Polished Answer]
