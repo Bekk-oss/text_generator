@@ -53,7 +53,7 @@ Retrieval-Augmented Generation combines information retrieval with language mode
 - Google Gemini API key
 
 ## Installation
-just need the required libraries: 
+Just need the required libraries: 
 
 pip install langchain
 langchain-community
