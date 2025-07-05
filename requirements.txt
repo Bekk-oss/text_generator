@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
+google-generativeai
+pdfminer.six
+faiss-cpu
+fastapi
+uvicorn
+google-cloud-storage
+google-cloud-secret-manager

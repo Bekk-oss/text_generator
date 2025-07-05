@@ -1,0 +1,8 @@
+Dockerfile
+.dockerignore
+output.txt
+extracted_text.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
