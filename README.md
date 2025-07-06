@@ -53,14 +53,7 @@ Retrieval-Augmented Generation combines information retrieval with language mode
 - Google Gemini API key
 
 ## Installation
-Just need the required libraries: 
-
-pip install langchain
-langchain-community
-langchain-google-genai
-langchain-text-splitters
-pdfminer.six
-faiss-cpu
+Just need the required libraries outlined in the requirements page
 sentence-transformers
 google-generativeai
 
