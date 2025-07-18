@@ -54,8 +54,7 @@ Retrieval-Augmented Generation combines information retrieval with language mode
 
 ## Installation
 Just need the required libraries outlined in the requirements page
-sentence-transformers
-google-generativeai
+
 
 configure your specific pdf to the path. PDF_PATH = "path/to/your/document.pdf"
 
