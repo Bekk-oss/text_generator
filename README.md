@@ -116,9 +116,9 @@ Containerizing the application with Docker is the recommended way to ensure cons
     - The `-p 8080:8080` flag maps the container's port 8080 to your local machine's port 8080.
     - The `--mount` command securely shares your local Google Cloud credentials with the container.
 
-## Deployment to Google Cloud Run
+## Deployment to Google Cloud Run 
 
-Google Cloud Run is the ideal platform for deploying this application for personal use or demonstrations, as it is serverless, scales to zero (making it free for low traffic), and provides a public HTTPS URL.
+Google Cloud Run is the ideal platform for deploying this application for personal use or demonstrations, and it also provides a public HTTPS URL. (VertexAI is also an option)
 
 ### Prerequisites
 
