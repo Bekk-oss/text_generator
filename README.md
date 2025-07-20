@@ -14,7 +14,7 @@ The application is containerized with Docker and designed for easy deployment on
     - Downloads the source PDF document from **Google Cloud Storage (GCS)**.
     - Designed for easy deployment to **Google Cloud Run**.
 - **Dockerized:** Comes with a `Dockerfile` for consistent, reproducible builds and deployments.
-- **Vertex AI Evaluation:** Includes a `autosxs_pipeline.py` script to run automated side-by-side evaluations comparing the RAG model against a baseline (e.g., Gemini 1.5 Flash), which is crucial for MLOps and continuous improvement.
+- **Vertex AI Evaluation:** Includes a `autosxs_pipeline.py` script to run automated side-by-side evaluations comparing the RAG model against a baseline (Gemini 1.5 Flash).
 
 ## Project Structure
 
