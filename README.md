@@ -21,12 +21,13 @@ The application is containerized with Docker and designed for easy deployment on
 ```
 .
 ├── main.py                   # FastAPI application with the RAG logic
+├── Sample_textgenerator(2).ipynb #the google colab version for simple access
 ├── Dockerfile                # Docker configuration for containerizing the app
 ├── requirements.txt          # Python dependencies
-├── autosxs_pipeline.py       # Vertex AI pipeline for model evaluation
+├── autosxs_pipeline.py       # Vertex AI pipeline for model evaluation (not provided)
 ├── generate_predictions.py   # Script to generate predictions for evaluation
 ├── run_evaluation.py         # Script to execute the evaluation pipeline
-└── ... (other evaluation and data files)
+└── 
 ```
 
 ## Installation and Local Setup
